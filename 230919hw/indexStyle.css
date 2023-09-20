@@ -1,0 +1,130 @@
+@charset "utf=8";
+body {
+  background-color: bisque;
+  background-image: url(./images/cork-board.webp);
+}
+.wrapper {
+  margin: 20px auto;
+  border: 3px coral solid;
+  width: 900px;
+}
+header {
+  height: 90px;
+  background-color: purple;
+  display: flex;
+  flex-flow: wrap;
+  color: white;
+  margin-right: auto;
+}
+h1 {
+  width: 52px;
+  padding: 0 20px;
+}
+h2 {
+  margin: 15px 10px 0 10px;
+  font-family: 'cooper', '맑은 고딕', 돋움, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+}
+header p {
+  margin: 0 0 0 10px;
+  font-family: 'Beanco Demo', '맑은 고딕', 돋움, sans-serif;
+  font-size: 30px;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: #ffca1e;
+  color: purple;
+  font-weight: bold;
+}
+nav ul li {
+  text-align: center;
+  padding: 10px 20px;
+}
+nav ul li:hover {
+  background-color: purple;
+  color: #ffca1e;
+}
+main {
+  width: 600px; height: 500px;
+  background-color: #ddd;
+}
+.container {
+  height: 500px;
+  display: flex;
+flex-flow: wrap column;
+}
+.container ul{
+list-style: none;
+padding: 0;
+}
+.box {
+  background-color: white;
+  width: 254px;
+  border: rgb(255, 0, 0) 2px solid;
+  margin: 10px 20px;
+}
+.box img {
+  padding: 5px 5px 0 5px;
+  width: 244px;
+  vertical-align: middle;
+}
+.box figcaption {
+  background-color: white;
+  text-align: right;
+  padding: 0 5px 5px 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(173, 173, 173);
+}
+.content {
+  width: 600px; height: 210px;
+  display: flex;
+  flex-flow: wrap column;
+}
+.content h3, .content h4, .content p {
+  width: 270px;
+  margin: 10px 10px;
+}
+.content h3 {
+  font-size: 23px;
+}
+.content h4 {
+  color: rgb(255, 0, 0);
+}
+aside {
+  width: 300px; height: 512px;
+  background-color: white;
+  border-left: 2px solid rgb(255, 0, 0)68, 0) ;
+}
+aside h3 {
+  color: rgb(255, 0, 0);
+}
+aside ul li{
+width: 280px;
+padding: 12px 10px;
+border-bottom: 2px solid rgb(255, 0, 0);
+font-weight: bold;
+}
+aside h3 {
+  font-size: 23px;
+  margin: 30px 10px;
+}
+aside ul:nth-child(4) li {
+  border-bottom: none;
+}
+aside ul:nth-child(2) li:hover {
+  background-color: purple;
+  color: white;
+}
+aside p {
+  margin: 0;
+}
+footer {
+  background-color: purple;
+  padding: 1px 20px;
+  color: white;
+}

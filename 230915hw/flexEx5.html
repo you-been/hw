@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexEx5</title>
+  <style>
+body {
+  margin: 0;
+}
+.wrapper {
+  width: 100vw; height: 100vh;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  width: fit-content;
+  margin: 20px auto;
+}
+.item {
+  width: 20%;
+  margin: 0 auto;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title {
+  width: 40%;
+  background-color: cadetblue;
+  margin: 5px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  display: inline-block;
+  width:50%;
+  padding: 5px;
+  margin: 5px 0;
+}
+#text1 {padding: 3px 0;}
+#text2 {padding: 3px 0;}
+#text3 {padding: 30px 0;}
+#text4 {padding: 35px 0;}
+#text5 {padding: 30px 0;}
+  </style>
+</head>
+<body>
+  <form>
+    <div class="wrapper">
+      <h2>폼 타이틀 세로 중앙정렬</h2>
+      <div class="item">
+        <span class="title title1">채널 키워드</span><input type="text" id="text1" placeholder="플렉스 적용하기">
+        <span class="title title2">채널 키워드</span><input type="text" id="text2" placeholder="플렉스 적용하기">
+        <span class="title title3">channel keyword</span><input type="text" id="text3" placeholder="플렉스 적용하기">
+        <span class="title title4">channel keyword 채널 키워드</span><input type="text" id="text4" placeholder="플렉스 적용하기">
+        <span class="title title5">채널 키워드</span><input type="text" id="text5" placeholder="플렉스 적용하기">
+      </div>
+    </div>
+</body>
+</html>

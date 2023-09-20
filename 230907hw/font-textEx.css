@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+h2 {
+  font-family: '하남다움체', '나눔고딕', '맑음 고딕', 돋움, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: steelblue;
+}
+h4 {
+  color: orangered;
+  text-decoration: underline;
+}
+.text1 {
+  text-align: center;
+  background-color: lightsteelblue;
+}
+.caution {
+  color: red;
+  font-size: 13px;
+}
+a {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+}
+.text2 {
+  background-color: wheat;
+}
+h3 {
+  text-align: center;
+  color:orangered ;
+  text-decoration: underline;
+}
+.subtitle1 {
+  background-color: steelblue;
+  text-align: right;
+  font-family: '하남다움체', '나눔고딕', '맑음 고딕', 돋움, sans-serif;
+  color: white;
+  font-size: 17px;
+}
+.highlight{
+  background-color: orange;
+}
+.oltitle{
+ font-weight: bold;
+}

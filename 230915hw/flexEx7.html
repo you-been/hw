@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexEx7</title>
+  <style>
+    body {
+      margin 0;
+      font-weight: bold;
+    }
+    .wrapper {
+      width: 100vw; height: 30vh;
+      border: 3px solid black;
+    }
+    ul {
+      margin: 0;
+      list-style: none;
+      background-color: chartreuse;
+      padding-left: 0;
+      display: flex;
+      flex-direction: row;
+    }
+    ul li {
+      width: 25%;
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-transform: capitalize;
+    }
+    ul li[class=select] {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <ul>
+        <li>home</li>
+        <li class="select">company</li>
+        <li>service</li>
+        <li>product</li>
+        <li>board</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
